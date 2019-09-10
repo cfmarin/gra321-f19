@@ -1,0 +1,24 @@
+/* Styles for Project 4 */
+
+body {
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+   
+    letter-spacing: .5px;
+    line-height: 1.5;
+    padding: 10%;
+}
+
+h1 {
+    color: mediumpurple;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}
