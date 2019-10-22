@@ -70,7 +70,11 @@ p {
 }
 
 @media screen and (min-width: 768px){
-    .row {
+    .table {
+        font-family: atrament-web, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
         margin-left: 34.5%;
         margin-right: 35.5%;
         width: 40%;
