@@ -33,7 +33,7 @@ h2 {
     color: black;
     background: #fff;
     font-size: 50px;
-    margin-bottom: -.1%;
+    margin-bottom: 2;
 }
     
 h3 {
@@ -60,13 +60,23 @@ p {
 }
 
 .row {
+    grid: auto;
     display: inline-flex;
     align-content: center;
-    margin-left: 34.5%;
-    margin-right: 35.5%;
-    width: 30%;
-    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
     margin-top; 10px;
+}
+
+@media screen and (min-width: 768px){
+    .row {
+        margin-left: 34.5%;
+        margin-right: 35.5%;
+        width: 40%;
+        height: auto;
+        grid-row: auto;
+    }
 }
 
 .column {
@@ -113,4 +123,43 @@ footer {
     background: #000000;
     max-width: 100%;
     padding: 2%;
+}
+
+
+.table {
+    display: inline-flex;
+    position: relative;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.td {
+    text-align: center;
+    align-content: center;
+    width: 2%;
+    font-family: atrament-web, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.td2 {
+    text-align: center;
+    align-content: center;
+    width: 2%;
+    font-family: atrament-web, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 40px;
 }
