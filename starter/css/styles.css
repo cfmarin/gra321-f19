@@ -127,6 +127,10 @@ footer {
 
 
 .table {
+    font-family: atrament-web, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
     display: inline-flex;
     position: relative;
     align-content: center;
