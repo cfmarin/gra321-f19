@@ -105,5 +105,12 @@ p {
     align-items: center;
     padding-left: 23%;
     padding-top: 20px;
+    padding-bottom: 20px;
     
+}
+
+footer {
+    background: #000000;
+    max-width: 100%;
+    padding: 2%;
 }
