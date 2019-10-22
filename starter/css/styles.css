@@ -1,0 +1,109 @@
+/* Starter Project Styles */
+
+*, *:before, *after {
+    box-sizing: border-box;
+}
+
+header {
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: .5%;
+    text-align: left;
+    background: #000000;
+    color: white;
+    font-size: 22px;
+    max-width: 100%;
+    padding-left: 5%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: .5%;
+    text-align: center;
+    color: black;
+    background: #fff;
+    font-size: 50px;
+    margin-bottom: -.1%;
+}
+    
+h3 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: .5%;
+    text-align: center;
+    color: black;
+    background: #fff;
+    font-size: 30px;
+    margin-bottom: -.1%;
+    margin-top: -5px;
+}
+
+p {
+    font-family: atrament-web, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    
+}
+
+.row {
+    display: inline-flex;
+    align-content: center;
+    margin-left: 34.5%;
+    margin-right: 35.5%;
+    width: 30%;
+    height: auto;
+    margin-top; 10px;
+}
+
+.column {
+    align-content: center;
+    width: 50%;
+    margin-left: auto;
+    height: -5%;
+}
+
+.row2 {
+    display: flex;
+    align-content: center;
+    margin-left: 33.5%;
+    margin-right: 34.5%;
+    width: 30%;
+    height: auto;
+    margin-top; 10px;
+}
+
+.column2 {
+    align-content: center;
+    width: 100%;
+    margin-left: auto;
+    height: -5%;
+    font-size: 10px;
+}
+
+.sub {
+    font-size: 20px;
+}
+
+.charlies{
+    max-width: 50%;
+    border: 1px;
+    outline-color: black;
+    align-items: center;
+    padding-left: 23%;
+    padding-top: 20px;
+    
+}
